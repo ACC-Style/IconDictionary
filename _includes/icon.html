@@ -1,0 +1,63 @@
+<div class="flex m-b_5">
+    <div class="flex_none w_15 p-x_4 p_3 text_right">
+        {% if classes.size==0 %}
+        <i class=" fas fa-ban c_alert  font_10 fa-fw "></i>
+        {% elsif classes.size == 1 %}
+      <i class=" {%  if icons.sub == 'social' %} fab {% else %} far {% endif %} c_primary  font_10 fa-fw  fa-{{ icons.class }} "></i>
+      {% else %}
+      <span class="fa-stack c_primary  font_5">
+        <i class="fas fa-{{ classes[0] }} fa-stack-2x"></i>
+        <i class="fas fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"></i>
+      </span>
+      {% endif %}
+ 
+    </div>
+     <div class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
+     <h2 class="font_5">
+      {{icons.name}}
+      {% if icons.image != null %}
+      <span class="p_3 br_radius c_white bg_warning font_0">img</span>
+    {% endif %}
+    </h2>
+    {% if classes.size==0 %}
+    {% elsif classes.size == 1 %}
+      <span class="block font_0">
+        <span class="inline-block c_black-4 uppercase font_bold">Single Icon:</span> 
+        <a class="font_bold p-l_3 underline h:undecorated" href="https://fontawesome.com/icons/{{ icons.class }}">fa-{{ icons.class }}</a>
+      </span>
+      {% else %}
+        <span class="block font_0">
+            <span class="inline-block c_black-4 uppercase font_bold">Stacked Icons:</span>
+        {% for class in classes %}
+        <a class="font_bold p-l_3" href="https://fontawesome.com/icons/{{ class }}">fa-{{ class }}</a>
+        {% endfor %}
+      </span>
+      <strong class="c_warning">These icons usually require extra styling to make them look correct when resized.</strong>
+      {% endif %}
+   <p class="m-t_3">{{icons.usage}}</p>
+   {% if icons.synonyms.size > 0 %}
+   <p class="m-t_3">
+    <span class="inline-block c_black-4 uppercase font_bold">synonyms</span>
+    <strong class="c_primary">{{icons.synonyms}}</strong></p>
+    {% endif %}
+    <pre class="br_1 br_solid br_black-3 bg_black-1 p_3 m-t_3 m-b_5 block"><code class="force-select">{% if classes.size == 0 %}
+        <strong class="c_alert">Missing Icon Information</strong>
+        {% elsif  classes.size == 1 %}
+    &lt;i class=&quot;{% if icons.sub == "social" %}fab{% else %}far{% endif %} fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;
+    {% else %}
+    &lt;span class="fa-stack c_primary  font_5"&gt;
+    &lt;i class="fas fa-{{ classes[0] }} fa-stack-2x"&gt;&lt;/i&gt;
+    &lt;i class="fas fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"&gt;&lt;/i&gt;
+    &lt;/span&gt;
+    {% endif %}</code></pre>
+    {% if icons.image != null %}
+    <div>
+        <h4 class="c_primary font_xbold">Progresive Image</h4>
+        {% assign imagepath = '/assets/graphic/' | append: icons.image %}
+        <img class="w_100 max-w_15 float_left m-r_4" src="{{ imagepath | append: site.github.build_revision | relative_url   }}" alt="{{name}}" srcset="">
+        <p class="font_n2">This icon has a progresive Image. The Image is used whenever the specific icon is going to be used larger then 150px.</p>
+        <a href="{{ imagepath | append: site.github.build_revision | relative_url   }}" target="_blank" class="c_priamry h:c_priamry-n2 h:underline capitalize"> <i class="far fa-download"></i> image download</a>
+    </div>
+    {% endif %}
+    </div>
+  </div>

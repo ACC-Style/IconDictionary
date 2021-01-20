@@ -1,5 +1,5 @@
 ---
-title: 'Action Icons'
+title: 'Social Icons'
 date: 2021-01-13 10:14:44 -0500
 categories: icons
 ---
@@ -8,8 +8,8 @@ categories: icons
 {% for icons in site.data.IconDictionaryData %}
 {% assign categoryArray = icons.category | split:"," %}
 {% assign classes = icons.class | split:"," %}
-{% if categoryArray contains "action" %}
-     {% include icon.html %}
+{% if categoryArray contains "ui" and icons.sub == 'social' %}
+    {% include icon.html %}
 {% endif %}
 {% endfor %}
 </div>

@@ -6,23 +6,9 @@ categories: icons
 <div class="ul_none">
 {% for icons in site.data.IconDictionaryData %}
 {% assign categoryArray = icons.category | split:"," %}
+{% assign classes = icons.class | split:"," %}
 {% if categoryArray contains "content" %}
-  <div class="flex m-b_5">
-    <div class="flex_none p-x_4 p_3">
-      <i class="far c_primary  font_10 fa-fw  fa-{{ icons.class }}"></i>
-    </div>
-     <div class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
-     <a class="font_5" href="https://fontawesome.com/icons/{{ icons.class }}">
-      {{icons.name}}
-      
-    </a><span class="block font_0"><span class="font_regular p-r_3">class name:</span><span class="font_bold">fa-{{ icons.class }}</span></span>
-   <p class="m-t_3">{{icons.usage}}</p>
-   <p class="m-t_3">
-    <span class="block c_black_4 capitalize">synonymns</span>
-    {{icons.synonyms}}</p>
-        <pre class="br_1 br_solid br_black-3 bg_black-1 p_3 m-t_3 m-b_5"><code class="force-select">&lt;i class=&quot;far fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;</code></pre>
-    </div>
-  </div>
+    {% include icon.html %}
   {% endif %}
 {% endfor %}
 </div>
