@@ -1,4 +1,4 @@
-<div class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5">
+<div id="{{icons.name}}" class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5">
     <div class="flex_none w_15 p-x_4 p_3 text_right">
         {% if classes.size==0 %}
         <i class=" fas fa-ban c_alert  font_10 fa-fw "></i>
@@ -14,7 +14,7 @@
     </div>
      <div class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
      <h2 class="font_5">
-      {{icons.name}}
+      <a href="#{{icons.name}}" class="link">{{icons.name}}</a>
       {% if icons.image != null %}
       <span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"><i class="fa-image fas font_2 vertical-align_bottom"></i> image</span>
     {% endif %}
