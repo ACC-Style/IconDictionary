@@ -16,23 +16,26 @@
      <h2 class="font_5">
       {{icons.name}}
       {% if icons.image != null %}
-      <span class="p_3 br_radius c_white bg_warning font_0">img</span>
+      <span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"><i class="fa-image fas font_2 vertical-align_bottom"></i> image</span>
     {% endif %}
+    {% if classes.size >= 2 %}
+    <span class="p_3 m-x_2 br_radius c_white bg_warning font_0"><i class="fa-layer-group fas font_2 vertical-align_bottom"></i> stack</span>
+  {% endif %}   
     </h2>
     {% if classes.size==0 %}
     {% elsif classes.size == 1 %}
       <span class="block font_0">
-        <span class="inline-block c_black-4 uppercase font_bold">Single Icon:</span> 
+        <span class="inline-block c_black-4 uppercase font_bold">Icon:</span> 
         <a class="font_bold p-l_3 underline h:undecorated" href="https://fontawesome.com/icons/{{ icons.class }}">fa-{{ icons.class }}</a>
       </span>
       {% else %}
         <span class="block font_0">
-            <span class="inline-block c_black-4 uppercase font_bold">Stacked Icons:</span>
+            <span class="inline-block c_black-4 uppercase font_bold">Stacked Icon:</span>
         {% for class in classes %}
         <a class="font_bold p-l_3" href="https://fontawesome.com/icons/{{ class }}">fa-{{ class }}</a>
         {% endfor %}
       </span>
-      <strong class="c_warning">These icons usually require extra styling to make them look correct when resized.</strong>
+      
       {% endif %}
    <p class="m-t_3">{{icons.usage}}</p>
    {% if icons.synonyms.size > 0 %}
@@ -52,11 +55,9 @@
     {% endif %}</code></pre>
     {% if icons.image != null %}
     <div>
-        <h4 class="c_primary font_xbold">Progresive Image</h4>
-        {% assign imagepath = '/assets/graphic/' | append: icons.image %}
-        <img class="w_100 max-w_15 float_left m-r_4" src="{{ imagepath | append: site.github.build_revision | relative_url   }}" alt="{{name}}" srcset="">
-        <p class="font_n2">This icon has a progresive Image. The Image is used whenever the specific icon is going to be used larger then 150px.</p>
-        <a href="{{ imagepath | append: site.github.build_revision | relative_url   }}" target="_blank" class="c_priamry h:c_priamry-n2 h:underline capitalize"> <i class="far fa-download"></i> image download</a>
+        <h3 class="c_primary">Progresive Image</h3>
+        {% assign imagepath = '/assets/graphic/' | append: icons.image %}     
+        <a href="{{ imagepath | relative_url   }}" target="_blank" class="c_priamry h:c_priamry-n2 h:underline capitalize link br_none undecorated"><img class="w_100 max-w_15 m-r_4" src="{{ imagepath | append: site.github.build_revision | relative_url   }}" alt="{{name}}" srcset=""><br> image download</a>
     </div>
     {% endif %}
     </div>
