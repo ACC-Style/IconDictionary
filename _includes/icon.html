@@ -16,7 +16,7 @@
      <h2 class="font_5">
       <a href="#{{icons.name}}" class="link">{{icons.name}}</a>
       {% if icons.image != null %}
-      <span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"><i class="fa-image fas font_2 vertical-align_bottom"></i> image</span>
+      <span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"><i class="fa-image fas font_2 vertical-align_bottom"></i> illustration</span>
     {% endif %}
     {% if classes.size >= 2 %}
     <span class="p_3 m-x_2 br_radius c_white bg_warning font_0"><i class="fa-layer-group fas font_2 vertical-align_bottom"></i> stack</span>
@@ -55,7 +55,7 @@
     {% endif %}</code></pre>
     {% if icons.image != null %}
     <div>
-        <h3 class="c_primary">Progresive Image</h3>
+        <h3 class="c_primary">Illustration</h3>
         {% assign imagepath = '/assets/graphic/' | append: icons.image %}     
         <a href="{{ imagepath | relative_url   }}" target="_blank" class="c_priamry h:c_priamry-n2 h:underline capitalize link br_none undecorated"><img class="w_100 max-w_15 m-r_4" src="{{ imagepath | append: site.github.build_revision | relative_url   }}" alt="{{name}}" srcset=""><br> image download</a>
     </div>
