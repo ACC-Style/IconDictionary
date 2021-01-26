@@ -1,4 +1,4 @@
-<div id="{{icons.name}}" class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5">
+<div id="{{icons.name}}" class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5 IconListItem">
     <div class="flex_none w_15 p-x_4 p_3 text_right">
         {% if classes.size==0 %}
         <i class=" fas fa-ban c_alert  font_10 fa-fw "></i>
@@ -10,7 +10,6 @@
         <i class="fas fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"></i>
       </span>
       {% endif %}
- 
     </div>
      <div class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
      <h2 class="font_5">
@@ -35,13 +34,14 @@
         <a class="font_bold p-l_3" href="https://fontawesome.com/icons/{{ class }}">fa-{{ class }}</a>
         {% endfor %}
       </span>
-      
       {% endif %}
-   <p class="m-t_3">{{icons.usage}}</p>
+   <p class="m-t_3 ">{{icons.usage}}</p>
    {% if icons.synonyms.size > 0 %}
-   <p class="m-t_3">
+   <p class="m-t_3 ">
     <span class="inline-block c_black-4 uppercase font_bold">synonyms</span>
-    <strong class="c_primary">{{icons.synonyms}}</strong></p>
+    <span class="IconSynonyms">
+    <strong class="c_primary">{{icons.synonyms}}</strong>
+  </span></p>
     {% endif %}
     <pre class="br_1 br_solid br_black-3 bg_black-1 p_3 m-t_3 m-b_5 block"><code class="force-select">{% if classes.size == 0 %}
         <strong class="c_alert">Missing Icon Information</strong>
