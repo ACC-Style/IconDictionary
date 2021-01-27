@@ -8,18 +8,18 @@ Sound,volume,"volume, listen",Signifies the ability to adjust volume,action,butt
 Sound Off,volume-mute,"volume off, mute",Signifies the ability to mute the audio file ,action,button & link,,,
 Upload,arrow-to-top,"add image, add file",This icon must always be connected to the expected asset to uploaded. For example: (Upload) image,action,button & link,,,
 Collapse,minus,"minimize,hide","In combination with the ""Expand"" icon, these icons toggle to reflect the opposite state of complex content - such as navigation and sections of content.",action,hidden content,,,
-Expand,plus, show,"In combination with the ""Collapse"" these icons toggle to reflect the opposite state of complex content - such as navigation, and sections of content.",action,hidden content,,,
+Expand,plus, show,"In combination with the ""Collapse"" these icons toggle to reflect the opposite state of complex content - such as navigation, and sections of content.",action,hidden content,,,Cardiosmart.org 
 Less,chevron-up,"collapse, read less, hide","In combination with the ""More"" icon this icon toggles simple text content by showing less of the content",action,hidden content,,,
 More,chevron-down,"expand, read more, show","In combination with the ""Less"" icon this icon toggles simple text content by showing more content",action,hidden content,,,https://memberhub.acc.org/welcome/profile/12073 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
-Action Plan,file-signature, ,"Multi-page booklet that includes information about how to manage a health condition or initiate a medication, with input areas to record progress or goals.",content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=action%20plan 
-Decision Aid,sitemap, ,Decision Aid: Multi-page booklet or video to support shared decision-making.,content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid 
+Action Plan,file-signature, ,"Multi-page booklet that includes information about how to manage a health condition or initiate a medication, with input areas to record progress or goals.",content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=action%20plan ; https://www.cardiosmart.org/topics/manage-your-care/your-responsibilities 
+Decision Aid,sitemap, ,Decision Aid: Multi-page booklet or video to support shared decision-making.,content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid ; https://www.cardiosmart.org/assets/decision-aid/choosing-between-tavr-and-surgery 
 Discussion Guide,user-md-chat, ,Multi-page booklet for clinician to use with patient to learn about a topic.,content, ,,,
 Fact Sheet,ballot-check, ,"One page, mostly text, explains key information about a topic.",content, ,,,https://www.cardiosmart.org/search?sort=csposteddate%20descending&f:@cscontentitemtype=Fact%20sheet 
 Guideline,book-medical, ,"Capital ""G"" guidelines",content, ,,,
-Infographic,file-chart-pie,poster,"One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,https://www.cardiosmart.org/topics/healthy-living/eat-better 
-Patient/Survivor Story,address-card, ,An article or essay that is foucs on or in the words of a patient,content, ,,,
+Infographic,file-chart-pie,"poster, printable flier","One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,https://www.cardiosmart.org/topics/healthy-living/eat-better 
+Patient/Survivor Story,address-card, ,An article or essay that is focus on or in the words of a patient,content, ,,,
 Risk Calculator,calculator, ,SPA (Single Page Application) that helps a user understand their risk for a condition.,content, ,,,
-Webinar,desktop-alt, event,Webinar events that are upcoming or are on-demand,content, ,,,
+Webinar,desktop-alt," event, virtual meeting, online session",Webinar events that are upcoming or are on-demand,content, ,,,
 Generic Article,file-medical-alt, ,Any news or editorial article that doesn't fit into the specialized sub article types,content,article,,,https://www.acc.org/My-ACC/My-Library 
 News Article,newspaper, ,A news article that is an update or newsworthy,content,article,,,https://www.cardiosmart.org/topics/angina 
 Accreditation Services,award,accreditation,Accreditation Content,content,product,Accreditation.png,,
@@ -56,7 +56,7 @@ LinkedIn,linkedin, ,Icon representation of the social network,ui,social,,,
 Twitter,twitter-square, ,Icon representation of the social network,ui,social,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
 Editor in Chief,users-medical,"editor, editorial board", ,ui,users,,,
 User,user,member, ,ui,users,,,
-Users,users,"members, group, people","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.","content, users",,,,
+Users,users,"members, group, people","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.","content, ui",users,,,
 Add Connection,user-plus," add friend, get connected",,,,,,https://memberhub.acc.org/profile/12609  
 Report,exclamation-triangle,,,,,,,https://memberhub.acc.org/profile/12609 
 Message,envelope,"send message, email",,,,,,https://memberhub.acc.org/profile/12609 ; https://memberhub.acc.org/profile/12609 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
@@ -66,34 +66,35 @@ Service Glossary,,,,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
 Share,share-square,,,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
 Healthy Living,,,,,,,,https://www.cardiosmart.org/topics/healthy-living 
 Career & Practice Resources,briefcase-medical,,,,,,,https://www.acc.org/membership/current-members 
-Slideshow,,,,,,,,https://www.acc.org/My-ACC/My-Library 
-Meetings,,,,,,,,https://www.acc.org/My-ACC/My-Library 
-"Educational Activities, Education",,,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members 
-Section News,,,,,,,,https://www.acc.org/My-ACC/My-Library 
-Font Size,,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
-"No Connections, 1 Connection",,,,,,,,https://memberhub.acc.org/dashboard#-announcements- 
+"Slideshow, Slides",slideshare,,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members ; https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Meetings,meetings,,,,,,,https://www.acc.org/My-ACC/My-Library 
+"Educational Activities, ",university,Education,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members 
+Section News,scroll,,,,,,,https://www.acc.org/My-ACC/My-Library 
+Font Size,text-size,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
+Connections (MH?),user-friends,"No Connections, 1 Connection",,,,,,https://memberhub.acc.org/dashboard#-announcements- 
 Points,,,,,,,,https://memberhub.acc.org/dashboard#-announcements- 
-PDF,,,,,,,,https://www.acc.org/search#q=summary&sort=relevancy 
-Hub,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Home,,,,,,,,https://www.acc.org/ 
-Help,,,,,,,,https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
-Lock,,,,,,,,https://www.acc.org/membership/current-members 
-My Account,,,,,,,,https://memberhub.acc.org/welcome/profile/12073 
-Notification,,,,,,,,https://memberhub.acc.org/welcome/profile/12073 
-iTunes,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Google Play,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+PDF,file-pdf,,,,,,,https://www.acc.org/search#q=summary&sort=relevancy 
+Guideline Hub,hubspot,Hub,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Home,home,,,,,,,https://www.acc.org/ 
+Help,question,,,,,,,https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
+Lock,lock,,,,,,,https://www.acc.org/membership/current-members 
+My Account,user-circle,"me, my",,,,,,https://memberhub.acc.org/welcome/profile/12073 
+Notification,bell,,,,,,,https://memberhub.acc.org/welcome/profile/12073 
+iTunes,itunes,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Google Play,google-play,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
 Player FM,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Print,,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/19/14/27/new-insights-into-prescribing-of-sglt2-inhibitors-and-glp-1-receptor-agonists-in-2020 
-Replies,,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
-RSS,,,,,,,,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending 
-Search,,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
-Cart,,,,,,,,https://www.acc.org/ 
-Login,,,,,,,,https://memberhub.acc.org/welcome/profile/12073 
-Sort,,,,,,,,"https://memberhub.acc.org/discuss/viewcategory/336
-https://memberhub.acc.org/dashboard#recent-discussions "
-Trending,,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
-View Password,,,,,,,,https://www.acc.org/login?returnUrl=http://www.acc.org/ 
-Views,,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
+Print,print,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/19/14/27/new-insights-into-prescribing-of-sglt2-inhibitors-and-glp-1-receptor-agonists-in-2020 
+Replies,comment-dots,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
+RSS,rss-square,,,,,,,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending 
+Search,search,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
+Cart,shopping-cart,,,,,,,https://www.acc.org/ 
+Login,sign-in,sign-in,,,,,,https://memberhub.acc.org/welcome/profile/12073 
+Sort,sort,,,,,,,"https://memberhub.acc.org/discuss/viewcategory/336 
+  
+  https://memberhub.acc.org/dashboard#recent-discussions "
+Trending,analytics,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
+View Password,eye,show password,,,,,,https://www.acc.org/login?returnUrl=http://www.acc.org/ 
+Views,eye,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
 Annual Scientific Sessions,,,,,,,,https://www.acc.org/Education-and-Meetings 
 Chapter Meetings,,,,,,,,https://www.acc.org/Education-and-Meetings 
 Live Meetings,,,,,,,,https://www.acc.org/Education-and-Meetings 
@@ -106,5 +107,11 @@ Educational Meetings,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
 Practice Settings,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
 Personal Life,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
 Professional Type,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Subscribe,,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
-Tip,,,,,,,,
+Subscribe,,notification,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
+Tip,info-circle,"information, view more info, tooltip",,,,,,https://www.acc.org/Clinical-Topics/Anticoagulation-Management#sort=%40commonsortdate%20descending 
+Perspectives (Guidelines commentary),,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Patient Resources,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Education,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Quick Reference,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Apps & Tools,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Member Hub,,the hub,,memberhub,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
