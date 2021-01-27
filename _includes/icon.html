@@ -1,13 +1,13 @@
 <div id="{{icons.name}}" class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5 IconListItem">
     <div class="flex_none w_15 p-x_4 p_3 text_right">
         {% if classes.size==0 %}
-        <i class=" fas fa-ban c_alert  font_10 fa-fw "></i>
+        <i class=" far fa-ban c_alert  font_10 fa-fw "></i>
         {% elsif classes.size == 1 %}
       <i class=" {%  if icons.sub == 'social' %} fab {% else %} far {% endif %} c_primary  font_10 fa-fw  fa-{{ icons.class }} "></i>
       {% else %}
       <span class="fa-stack c_primary  font_5">
-        <i class="fas fa-{{ classes[0] }} fa-stack-2x"></i>
-        <i class="fas fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"></i>
+        <i class="far fa-{{ classes[0] }} fa-stack-2x"></i>
+        <i class="far fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"></i>
       </span>
       {% endif %}
     </div>
@@ -15,10 +15,10 @@
      <h2 class="font_5">
       <a href="#{{icons.name}}" class="link">{{icons.name}}</a>
       {% if icons.image != null %}
-      <span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"><i class="fa-image fas font_2 vertical-align_bottom"></i> illustration</span>
+      <span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"><i class="fa-image far font_2 vertical-align_bottom"></i> illustration</span>
     {% endif %}
     {% if classes.size >= 2 %}
-    <span class="p_3 m-x_2 br_radius c_white bg_warning font_0"><i class="fa-layer-group fas font_2 vertical-align_bottom"></i> stack</span>
+    <span class="p_3 m-x_2 br_radius c_white bg_warning font_0"><i class="fa-layer-group far font_2 vertical-align_bottom"></i> stack</span>
   {% endif %}   
     </h2>
     {% if classes.size==0 %}
@@ -49,8 +49,8 @@
     &lt;i class=&quot;{% if icons.sub == "social" %}fab{% else %}far{% endif %} fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;
     {% else %}
     &lt;span class="fa-stack c_primary  font_5"&gt;
-    &lt;i class="fas fa-{{ classes[0] }} fa-stack-2x"&gt;&lt;/i&gt;
-    &lt;i class="fas fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"&gt;&lt;/i&gt;
+    &lt;i class="far fa-{{ classes[0] }} fa-stack-2x"&gt;&lt;/i&gt;
+    &lt;i class="far fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"&gt;&lt;/i&gt;
     &lt;/span&gt;
     {% endif %}</code></pre>
     {% if icons.image != null %}

@@ -4,7 +4,7 @@ date:   2021-01-13 10:14:44 -0500
 categories: icons
 ---
 
-<div class="ul_none">
+<div id="mylist" class="ul_none">
 {% for icons in site.data.IconDictionaryData %}
 {% assign categoryArray = icons.category | split:"," %}
 {% assign classes = icons.class | split:"," %}
