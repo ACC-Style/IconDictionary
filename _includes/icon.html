@@ -10,10 +10,10 @@
 			class=" {%  if icons.sub == 'social' %} fab {% else %} far {% endif %} c_primary  font_10 fa-fw  fa-{{ icons.class }} "
 		></i>
 		{% else %}
-		<span class="fa-stack c_primary font_5">
-			<i class="far fa-{{ classes[0] }} fa-stack-2x"></i>
+		<span class="fa-stack font_5">
+			<i class="fas fa-{{ classes[0] }} fa-stack-2x c_primary"></i>
 			<i
-				class="far fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"
+				class="fas fa-{{ classes[1] }} fa-stack-1x  {{ icons.css  }}"
 			></i>
 		</span>
 		{% endif %}
