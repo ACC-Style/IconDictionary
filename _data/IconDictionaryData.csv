@@ -1,117 +1,115 @@
-name,class,synonyms,usage,category,sub,image,css,url
-"Add, New",plus,"new, another","Used in buttons - the plus icon is combined with ""Add [new item being added]"". For example: ""Add User""",action,button & link,,,https://memberhub.acc.org/discuss/viewcategory/336 
-Download,arrow-to-bottom,save local copy,"This icon must always be connected to the name of the file type it is downloading.  This can either be the title of the file or the type of file. For example: (Download) The complications of the heart, or (Download) Presentation",action,button & link,,, ; https://www.cardiosmart.org/assets/fact-sheet/hypertrophic-cardiomyopathy-fact-sheet 
-External Link,external-link,pop out,Any link that will drive the user to a page outside of the domain of the acc should have this icon postpended to it,action,button & link,,,https://www.acc.org/ ; https://www.acc.org/guidelines/hubs/valvular-heart-disease ; https://www.acc.org/Education-and-Meetings 
-Filter,filter,refine,This icon are usually combined with the word filter,action,button & link,,,https://memberhub.acc.org/discuss/viewcategory/336 
-"Remove, Cancel, Clear",times,"delete, close, clear","Used in buttons, the times icon is combined in two ways: either with ""Cancel"" or with the word ""Remove or Delete"" + [the item being removed]. For Exmple ""Remove User"" ",action,button & link,,,https://www.cardiosmart.org/find-your-heart-a-home ; https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
-Sound,volume,"volume, listen",Signifies the ability to adjust volume,action,button & link,,,
-Sound Off,volume-mute,"volume off, mute",Signifies the ability to mute the audio file ,action,button & link,,,
-Upload,arrow-to-top,"add image, add file",This icon must always be connected to the expected asset to uploaded. For example: (Upload) image,action,button & link,,,
-Collapse,minus,"minimize,hide","In combination with the ""Expand"" icon, these icons toggle to reflect the opposite state of complex content - such as navigation and sections of content.",action,hidden content,,,
-Expand,plus, show,"In combination with the ""Collapse"" these icons toggle to reflect the opposite state of complex content - such as navigation, and sections of content.",action,hidden content,,,Cardiosmart.org 
-Less,chevron-up,"collapse, read less, hide","In combination with the ""More"" icon this icon toggles simple text content by showing less of the content",action,hidden content,,,
-More,chevron-down,"expand, read more, show","In combination with the ""Less"" icon this icon toggles simple text content by showing more content",action,hidden content,,,https://memberhub.acc.org/welcome/profile/12073 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
-Action Plan,file-signature, ,"Multi-page booklet that includes information about how to manage a health condition or initiate a medication, with input areas to record progress or goals.",content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=action%20plan ; https://www.cardiosmart.org/topics/manage-your-care/your-responsibilities 
-Decision Aid,sitemap, ,Decision Aid: Multi-page booklet or video to support shared decision-making.,content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid ; https://www.cardiosmart.org/assets/decision-aid/choosing-between-tavr-and-surgery 
-Discussion Guide,user-md-chat, ,Multi-page booklet for clinician to use with patient to learn about a topic.,content, ,,,
-Fact Sheet,ballot-check, ,"One page, mostly text, explains key information about a topic.",content, ,,,https://www.cardiosmart.org/search?sort=csposteddate%20descending&f:@cscontentitemtype=Fact%20sheet 
-Guideline,book-medical, ,"Capital ""G"" guidelines",content, ,,,
-Infographic,file-chart-pie,"poster, printable flier","One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,https://www.cardiosmart.org/topics/healthy-living/eat-better 
-Patient/Survivor Story,address-card, ,An article or essay that is focus on or in the words of a patient,content, ,,,
-Risk Calculator,calculator, ,SPA (Single Page Application) that helps a user understand their risk for a condition.,content, ,,,
-Webinar,desktop-alt," event, virtual meeting, online session",Webinar events that are upcoming or are on-demand,content, ,,,
-Generic Article,file-medical-alt, ,Any news or editorial article that doesn't fit into the specialized sub article types,content,article,,,https://www.acc.org/My-ACC/My-Library 
-News Article,newspaper, ,A news article that is an update or newsworthy,content,article,,,https://www.cardiosmart.org/topics/angina 
-Accreditation Services,award,accreditation,Accreditation Content,content,product,Accreditation.png,,
-Certificate Program,,,Certificate program content,content,product,,,
-Certified Patient Cases,,,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,
-Clinical Toolkit,"box,tools",toolkit,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,font-size_down m-t_3 p-t_2,
-Drill and Practice,,,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,product,,,https://www.acc.org/Education-and-Meetings 
-Expert Analysis,,,,content,product,,,
-JACC Journals CME/MOC/ECME,,,"JACC Icon is used in the guidelines search listing, signifiying a link to the JACC guideline article",content,product,,,https://www.acc.org/membership/current-members 
-Meeting on Demand,,,,content,product,,,
-Online Course,,,,content,product,,,
-Patient Case Quizzes,,,,content,product,,,
-Quality Campaign,,campaign,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,
-Registry,"file,cog",NCDR,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,m-t_3,
-Self-Assessment Programs,,,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,https://www.acc.org/Education-and-Meetings 
-Self-Paced Learning,,,,content,product,,,
-"Guideline, Guideline Education",book-open,"recomendation, rule","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,,,,https://www.acc.org/Education-and-Meetings 
-Worksheet,tasks,,"One page, mostly text, with input areas to record progress or work done.",content,,,,
-Anouncement,megaphone,section news,Time sensitive messages that are not evergreen news. ,content ,article,,,
-"Event, Date",calendar-alt,calendar, Signifies the date of an event,"content,ui", ,,,https://www.acc.org/education-and-meetings/meetings?w_nav=MN#sort=%40startz32xdatetime%20ascending&f:@meetingtypedescription=[Chapter%20Meetings] ; https://www.acc.org/membership/current-members ; https://www.acc.org/Education-and-Meetings/Meetings#sort=%40startz32xdatetime%20ascending  ; https://www.acc.org/#sort=%40commonsortdate%20descending 
-Video,photo-video, , Signifies a video that's not a webinar,"content,ui", ,,,https://www.cardiosmart.org/search?sort=relevancy&q=video 
-Audio,headphones,"sound clip, podcast","The audio icon is often placed, with the title of the file.  Audio files include but are not limited to podcast, mp3, or wav.","content,ui",asset,,,https://www.acc.org/My-ACC/My-Library 
-image,image,"graphic, picture, photo",Signifies that the object is an image file,"content,ui",asset,,,https://memberhub.acc.org/profile/12609  ; https://www.acc.org/My-ACC/My-Library 
-Bookmark,bookmark,save to library, Appears when an item is saved to library,ui, ,,,https://memberhub.acc.org/profile/12609 
-Credit,file-certificate,certificate,When denoting the types of education credits or certificates that are attached to a content item. ,ui, ,,,
-Down Voted,thumbs-down,"unliked, disapproved", ,ui, ,,,
-Editors Pick,thumbs-up,"approved, liked, up voted", ,ui, ,,,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending&f:@themecomputed=[Clinical%20Updates%20and%20Discoveries]&f:@themecomputed:lookupvalues={%22Clinical%20Updates%20and%20Discoveries%22:%22Clinical%20Updates%20and%20Discoveries%22} 
-Featured,star,starred, ,ui, ,,,
-Registered,check-circle,purchased," Signifies that an item was purchased, or an event was registered for",ui, ,,,
-Time,clock, ,When a content object specifically only shows the time this icon is used.,ui, ,,,
-Facebook,facebook-square, ,Icon representation of the social network,ui,social,,,
-Instagram,instagram-square, ,Icon representation of the social network,ui,social,,,
-LinkedIn,linkedin, ,Icon representation of the social network,ui,social,,,
-Twitter,twitter-square, ,Icon representation of the social network,ui,social,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
-Editor in Chief,users-medical,"editor, editorial board", ,ui,users,,,
-User,user,member, ,ui,users,,,
-Users,users,"members, group, people","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.","content, ui",users,,,
-Add Connection,user-plus," add friend, get connected",,,,,,https://memberhub.acc.org/profile/12609  
-Report,exclamation-triangle,,,,,,,https://memberhub.acc.org/profile/12609 
-Message,envelope,"send message, email",,,,,,https://memberhub.acc.org/profile/12609 ; https://memberhub.acc.org/profile/12609 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
-Award,trophy,,,,,,,https://www.acc.org/membership/current-members 
-List bullets,N/A,N/A,N/A,N/A,N/A,N/A,,https://www.acc.org/education-and-meetings/features/2020/05/iv-board-prep-virtual-experience   https://www.acc.org/My-ACC/My-Communication-Preferences 
-Service Glossary,,,,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
-Share,share-square,,,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
-Healthy Living,,,,,,,,https://www.cardiosmart.org/topics/healthy-living 
-Career & Practice Resources,briefcase-medical,,,,,,,https://www.acc.org/membership/current-members 
-"Slideshow, Slides",slideshare,,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members ; https://www.acc.org/guidelines/hubs/atrial-fibrillation 
-Meetings,meetings,,,,,,,https://www.acc.org/My-ACC/My-Library 
-"Educational Activities, ",university,Education,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members 
-Section News,scroll,,,,,,,https://www.acc.org/My-ACC/My-Library 
-Font Size,text-size,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
-Connections (MH?),user-friends,"No Connections, 1 Connection",,,,,,https://memberhub.acc.org/dashboard#-announcements- 
-Points,,,,,,,,https://memberhub.acc.org/dashboard#-announcements- 
-PDF,file-pdf,,,,,,,https://www.acc.org/search#q=summary&sort=relevancy 
-Guideline Hub,hubspot,Hub,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Home,home,,,,,,,https://www.acc.org/ 
-Help,question,,,,,,,https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
-Lock,lock,,,,,,,https://www.acc.org/membership/current-members 
-My Account,user-circle,"me, my",,,,,,https://memberhub.acc.org/welcome/profile/12073 
-Notification,bell,,,,,,,https://memberhub.acc.org/welcome/profile/12073 
-iTunes,itunes,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Google Play,google-play,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Player FM,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Print,print,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/19/14/27/new-insights-into-prescribing-of-sglt2-inhibitors-and-glp-1-receptor-agonists-in-2020 
-Replies,comment-dots,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
-RSS,rss-square,,,,,,,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending 
-Search,search,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
-Cart,shopping-cart,,,,,,,https://www.acc.org/ 
-Login,sign-in,sign-in,,,,,,https://memberhub.acc.org/welcome/profile/12073 
-Sort,sort,,,,,,,"https://memberhub.acc.org/discuss/viewcategory/336 
-  
-  https://memberhub.acc.org/dashboard#recent-discussions "
-Trending,analytics,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
-View Password,eye,show password,,,,,,https://www.acc.org/login?returnUrl=http://www.acc.org/ 
-Views,eye,,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
-Annual Scientific Sessions,,,,,,,,https://www.acc.org/Education-and-Meetings 
-Chapter Meetings,,,,,,,,https://www.acc.org/Education-and-Meetings 
-Live Meetings,,,,,,,,https://www.acc.org/Education-and-Meetings 
-Webinars,,,,,,,,https://www.acc.org/Education-and-Meetings 
-ACC Committees ,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Clinical,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Career Stage Development,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Diversity and Inclusion,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Educational Meetings,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Practice Settings,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Personal Life,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Professional Type,,,,,,,,https://memberhub.acc.org/groups/browse-groups 
-Subscribe,,notification,,,,,,https://memberhub.acc.org/discuss/viewcategory/336 
-Tip,info-circle,"information, view more info, tooltip",,,,,,https://www.acc.org/Clinical-Topics/Anticoagulation-Management#sort=%40commonsortdate%20descending 
-Perspectives (Guidelines commentary),,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
-Patient Resources,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
-Education,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
-Quick Reference,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
-Apps & Tools,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
-Member Hub,,the hub,,memberhub,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+name,current icon,class,suggested class icon,synonyms,usage,category,sub,image,css,url
+Infographic,,file-chart-pie,,"poster, printable flier","One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,https://www.cardiosmart.org/topics/healthy-living/eat-better 
+Healthy Living,,,,,,,,,,https://www.cardiosmart.org/topics/healthy-living 
+News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,https://www.cardiosmart.org/topics/angina 
+Video,,photo-video,,stream, Signifies a video that's not a webinar,"content,ui", ,,,https://www.cardiosmart.org/search?sort=relevancy&q=video 
+Decision Aid,,sitemap,, ,Decision Aid: Multi-page booklet or video to support shared decision-making.,content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid ; https://www.cardiosmart.org/assets/decision-aid/choosing-between-tavr-and-surgery 
+Action Plan,,file-signature,, ,"Multi-page booklet that includes information about how to manage a health condition or initiate a medication, with input areas to record progress or goals.",content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=action%20plan ; https://www.cardiosmart.org/topics/manage-your-care/your-responsibilities 
+Fact Sheet,,ballot-check,, ,"One page, mostly text, explains key information about a topic.",content, ,,,https://www.cardiosmart.org/search?sort=csposteddate%20descending&f:@cscontentitemtype=Fact%20sheet 
+"Remove, Cancel, Clear",,times,,"delete, close, exit","Used in buttons, the times icon is combined in two ways: either with ""Cancel"" or with the word ""Remove or Delete"" + [the item being removed]. For Exmple ""Remove User"" ",action,button & link,,,https://www.cardiosmart.org/find-your-heart-a-home ; https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
+Service Glossary,,,,,,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
+Share,,share-square,,"send to, ",,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
+PDF,,file-pdf,,document,,,,,,https://www.acc.org/search#q=summary&sort=relevancy 
+"Educational Activities, ",,university,,Education,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members 
+Generic Article,,file-medical-alt,, ,Any news or editorial article that doesn't fit into the specialized sub article types,content,article,,,https://www.acc.org/My-ACC/My-Library 
+Audio,,headphones,,"sound clip, podcast","The audio icon is often placed, with the title of the file.  Audio files include but are not limited to podcast, mp3, or wav.","content,ui",asset,,,https://www.acc.org/My-ACC/My-Library 
+Meetings,,meetings,,"Conference, meetup",,,,,,https://www.acc.org/My-ACC/My-Library 
+Section News,,scroll,,,,,,,,https://www.acc.org/My-ACC/My-Library 
+"Slideshow, Slides",,slideshare,,"PowerPoint, Deck, Slide Deck,",,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members ; https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+JACC Journals CME/MOC/ECME,,,,,"JACC Icon is used in the guidelines search listing, signifiying a link to the JACC guideline article",content,product,,,https://www.acc.org/membership/current-members 
+Award,,trophy,,,,,,,,https://www.acc.org/membership/current-members 
+Career & Practice Resources,,briefcase-medical,,,,,,,,https://www.acc.org/membership/current-members 
+Lock,,lock,,secure,,,,,,https://www.acc.org/membership/current-members 
+View Password,,eye,,"show password, reveal password",,,,,,https://www.acc.org/login?returnUrl=http://www.acc.org/ 
+Guideline Hub,,hubspot,,Hub,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+iTunes,,itunes,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Google Play,,google-play,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Player FM,,,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Member Hub,,,,,,memberhub,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Print,,print,,,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/19/14/27/new-insights-into-prescribing-of-sglt2-inhibitors-and-glp-1-receptor-agonists-in-2020 
+Twitter,,twitter-square,, ,Icon representation of the social network,ui,social,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
+Font Size,,text-size,,text size,,,,,,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
+Editors Pick,,thumbs-up,,"approved, liked, up voted", ,ui, ,,,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending&f:@themecomputed=[Clinical%20Updates%20and%20Discoveries]&f:@themecomputed:lookupvalues={%22Clinical%20Updates%20and%20Discoveries%22:%22Clinical%20Updates%20and%20Discoveries%22} 
+RSS,,rss-square,,,,,,,,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending 
+Perspectives (Guidelines commentary),,,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Patient Resources,,,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Education,,,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Quick Reference,,,,,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Apps & Tools,,,,applications,,,,,,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+"Event, Date",,calendar-alt,,calendar, Signifies the date of an event,"content,ui", ,,,https://www.acc.org/education-and-meetings/meetings?w_nav=MN#sort=%40startz32xdatetime%20ascending&f:@meetingtypedescription=[Chapter%20Meetings] ; https://www.acc.org/membership/current-members ; https://www.acc.org/Education-and-Meetings/Meetings#sort=%40startz32xdatetime%20ascending  ; https://www.acc.org/#sort=%40commonsortdate%20descending 
+List bullets,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,https://www.acc.org/education-and-meetings/features/2020/05/iv-board-prep-virtual-experience   https://www.acc.org/My-ACC/My-Communication-Preferences 
+Help,,question,,"assistance, question, ask",,,,,,https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
+Drill and Practice,,,,,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,product,,,https://www.acc.org/Education-and-Meetings 
+Self-Assessment Programs,,,,,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,https://www.acc.org/Education-and-Meetings 
+"Guideline, Guideline Education",,book-open,,"recomendation, rule","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,,,,https://www.acc.org/Education-and-Meetings 
+Annual Scientific Sessions,,,,,,,,,,https://www.acc.org/Education-and-Meetings 
+Chapter Meetings,,,,,,,,,,https://www.acc.org/Education-and-Meetings 
+Live Meetings,,,,,,,,,,https://www.acc.org/Education-and-Meetings 
+Webinars,,,,,,,,,,https://www.acc.org/Education-and-Meetings 
+Tip,,info-circle,,"information, view more info, tooltip, help",,,,,,https://www.acc.org/Clinical-Topics/Anticoagulation-Management#sort=%40commonsortdate%20descending 
+Search,,search,,find,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
+Trending,,analytics,,,,,,,,https://www.acc.org/#sort=%40commonsortdate%20descending 
+External Link,,external-link,,"pop out, open in new window",Any link that will drive the user to a page outside of the domain of the acc should have this icon postpended to it,action,button & link,,,https://www.acc.org/ ; https://www.acc.org/guidelines/hubs/valvular-heart-disease ; https://www.acc.org/Education-and-Meetings 
+Home,,home,,,,,,,,https://www.acc.org/ 
+Cart,,shopping-cart,,"shopping cart, bag, shopping bag, basket, shopping basket",,,,,,https://www.acc.org/ 
+Expand,,plus,," show, maximize","In combination with the ""Collapse"" these icons toggle to reflect the opposite state of complex content - such as navigation, and sections of content.",action,hidden content,,,Cardiosmart.org 
+Download,,arrow-to-bottom,,"save local copy, save to disk, save to drive","This icon must always be connected to the name of the file type it is downloading.  This can either be the title of the file or the type of file. For example: (Download) The complications of the heart, or (Download) Presentation",action,button & link,,, ; https://www.cardiosmart.org/assets/fact-sheet/hypertrophic-cardiomyopathy-fact-sheet 
+Sound,,volume,,"volume, listen",Signifies the ability to adjust volume,action,button & link,,,
+Sound Off,,volume-mute,,"volume off, mute",Signifies the ability to mute the audio file ,action,button & link,,,
+Upload,,arrow-to-top,,"add image, add file",This icon must always be connected to the expected asset to uploaded. For example: (Upload) image,action,button & link,,,
+Collapse,,minus,,"minimize,hide","In combination with the ""Expand"" icon, these icons toggle to reflect the opposite state of complex content - such as navigation and sections of content.",action,hidden content,,,
+Less,,chevron-up,,"collapse, read less, hide","In combination with the ""More"" icon this icon toggles simple text content by showing less of the content",action,hidden content,,,
+Discussion Guide,,user-md-chat,, ,Multi-page booklet for clinician to use with patient to learn about a topic.,content, ,,,
+Guideline,,book-medical,, ,"Capital ""G"" guidelines",content, ,,,
+Patient/Survivor Story,,address-card,, ,An article or essay that is focus on or in the words of a patient,content, ,,,
+Risk Calculator,,calculator,, ,SPA (Single Page Application) that helps a user understand their risk for a condition.,content, ,,,
+Webinar,,desktop-alt,," event, virtual meeting, online session, stream, video",Webinar events that are upcoming or are on-demand,content, ,,,
+Accreditation Services,,award,,accreditation,Accreditation Content,content,product,Accreditation.png,,
+Certificate Program,,,,,Certificate program content,content,product,,,
+Certified Patient Cases,,,,,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,
+Clinical Toolkit,,"box,tools",,toolkit,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,font-size_down m-t_3 p-t_2,
+Expert Analysis,,,,,,content,product,,,
+Meeting on Demand,,,,,,content,product,,,
+Online Course,,,,,,content,product,,,
+Patient Case Quizzes,,,,,,content,product,,,
+Quality Campaign,,,,campaign,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,
+Registry,,"file,cog",,NCDR,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,m-t_3,
+Self-Paced Learning,,,,modules,,content,product,,,
+Worksheet,,tasks,,,"One page, mostly text, with input areas to record progress or work done.",content,,,,
+Anouncement,,megaphone,,"section news, updates",Time sensitive messages that are not evergreen news. ,content ,article,,,
+Credit,,file-certificate,,certificate,When denoting the types of education credits or certificates that are attached to a content item. ,ui, ,,,
+Down Voted,,thumbs-down,,"unliked, disapproved, disliked", ,ui, ,,,
+Featured,,star,,starred, ,ui, ,,,
+Registered,,check-circle,,purchased," Signifies that an item was purchased, or an event was registered for",ui, ,,,
+Time,,clock,, ,When a content object specifically only shows the time this icon is used.,ui, ,,,
+Facebook,,facebook-square,, ,Icon representation of the social network,ui,social,,,
+Instagram,,instagram-square,, ,Icon representation of the social network,ui,social,,,
+LinkedIn,,linkedin,, ,Icon representation of the social network,ui,social,,,
+Editor in Chief,,users-medical,,"editor, editorial board", ,ui,users,,,
+User,,user,,member, ,ui,users,,,
+Users,,users,,"members, group, people","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.","content, ui",users,,,
+name,current icon,class,suggested class icon,synonyms,usage,category,sub,image,css,url
+Infographic,,file-chart-pie,,"poster, printable flier","One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,https://www.cardiosmart.org/topics/healthy-living/eat-better 
+Healthy Living,,,,,,,,,,https://www.cardiosmart.org/topics/healthy-living 
+News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,https://www.cardiosmart.org/topics/angina 
+Video,,photo-video,,stream, Signifies a video that's not a webinar,"content,ui", ,,,https://www.cardiosmart.org/search?sort=relevancy&q=video 
+Decision Aid,,sitemap,, ,Decision Aid: Multi-page booklet or video to support shared decision-making.,content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid ; https://www.cardiosmart.org/assets/decision-aid/choosing-between-tavr-and-surgery 
+Action Plan,,file-signature,, ,"Multi-page booklet that includes information about how to manage a health condition or initiate a medication, with input areas to record progress or goals.",content, ,,,https://www.cardiosmart.org/search?sort=relevancy&q=action%20plan ; https://www.cardiosmart.org/topics/manage-your-care/your-responsibilities 
+Fact Sheet,,ballot-check,, ,"One page, mostly text, explains key information about a topic.",content, ,,,https://www.cardiosmart.org/search?sort=csposteddate%20descending&f:@cscontentitemtype=Fact%20sheet 
+"Remove, Cancel, Clear",,times,,"delete, close, exit","Used in buttons, the times icon is combined in two ways: either with ""Cancel"" or with the word ""Remove or Delete"" + [the item being removed]. For Exmple ""Remove User"" ",action,button & link,,,https://www.cardiosmart.org/find-your-heart-a-home ; https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending 
+Service Glossary,,,,,,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
+Share,,share-square,,"send to, ",,,,,,https://www.cardiosmart.org/find-your-heart-a-home 
+PDF,,file-pdf,,document,,,,,,https://www.acc.org/search#q=summary&sort=relevancy 
+"Educational Activities, ",,university,,Education,,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members 
+Generic Article,,file-medical-alt,, ,Any news or editorial article that doesn't fit into the specialized sub article types,content,article,,,https://www.acc.org/My-ACC/My-Library 
+Audio,,headphones,,"sound clip, podcast","The audio icon is often placed, with the title of the file.  Audio files include but are not limited to podcast, mp3, or wav.","content,ui",asset,,,https://www.acc.org/My-ACC/My-Library 
+Meetings,,meetings,,"Conference, meetup",,,,,,https://www.acc.org/My-ACC/My-Library 
+Section News,,scroll,,,,,,,,https://www.acc.org/My-ACC/My-Library 
+"Slideshow, Slides",,slideshare,,"PowerPoint, Deck, Slide Deck,",,,,,,https://www.acc.org/My-ACC/My-Library ; https://www.acc.org/membership/current-members ; https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+JACC Journals CME/MOC/ECME,,,,,"JACC Icon is used in the guidelines search listing, signifiying a link to the JACC guideline article",content,product,,,https://www.acc.org/membership/current-members 
+Award,,trophy,,,,,,,,https://www.acc.org/membership/current-members 
+Career & Practice Resources,,briefcase-medical,,,,,,,,https://www.acc.org/membership/current-members 
+Lock,,lock,,secure,,,,,,https://www.acc.org/membership/current-members 
+View Password,,eye,,"show password, reveal password",,,,,,https://www.acc.org/login?returnUrl=http://www.acc.org/ 
+Guideline Hub,,hubspot,,Hub,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+iTunes,,itunes,,,,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
