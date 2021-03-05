@@ -35,7 +35,7 @@ Font Size,,text-size,,text size,"This is a set of 3 icons in one - the user can 
 Generic Article,,file-medical-alt,, ,Any news or editorial article that doesn't fit into the specialized sub article types,content,article,,,https://www.acc.org/My-ACC/My-Library 
 Google Play,,google-play,,,Icon representation of the social network,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
 Guideline,,book-medical,, ,"Capital ""G"" guidelines",content, ,,,
-Guideline Hub,,hubspot,,Hub,"Guideline hub icon, appears on the guideline search listing page - links to hub for the particular guideline it appears next to",,,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
+Guideline Hub,,hubspot,,Hub,"Guideline hub icon, appears on the guideline search listing page - links to hub for the particular guideline it appears next to",,social,,,https://www.acc.org/latest-in-cardiology/features/podcasts 
 "Guideline, Guideline Education",,book-open,,"recomendation, rule","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,,,,https://www.acc.org/Education-and-Meetings 
 Home,,home,,,Links to homepage on ACC.org - appears in top line navigation,,,,,https://www.acc.org/ 
 Infographic,,file-chart-pie,,"poster, printable flier","One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,https://www.cardiosmart.org/topics/healthy-living/eat-better 
