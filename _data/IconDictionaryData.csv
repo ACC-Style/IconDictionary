@@ -88,7 +88,7 @@ View Password,,eye,,"show password, reveal password","In login, appears after pa
 Webinar,,desktop-alt,," event, virtual meeting, online session, stream, video",Webinar events that are upcoming or are on-demand,content, ,,,
 Webinars,,,,,,,,,,https://www.acc.org/Education-and-Meetings 
 Worksheet,,tasks,,,"One page, mostly text, with input areas to record progress or work done.",content,,,,
-Clinical Trials,,,,,,content,,,,
+Clinical Trials,,,,,,content,social,,,
 YouTube,,youtube-square,,,Icon representation of the social network,ui,users,,,
 Podcast,,podcast,,,Icon representation of podcasts,ui,users,,,
 LIve,,video,,"live stream, video in progress","Icon that denotes if a presentation is currently or will be ""live/live streamed""",,,,,
