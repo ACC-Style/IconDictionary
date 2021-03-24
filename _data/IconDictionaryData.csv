@@ -58,7 +58,7 @@ Logout,,sign-out,,"sign-out, log out, sign out",used in main nav that denotes ho
 Meeting on Demand,,,,,,content,product,,,far,
 Meetings,,"calendar-day
 ",,"Conference, meetup","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,,far,https://www.acc.org/My-ACC/My-Library�
-Member Hub,,,,,Icon representation of MH,memberhub,,,,far,https://www.acc.org/latest-in-cardiology/features/podcasts�
+Member Hub,,"circle,user-alt,user-alt,user-alt",,,Icon representation of MH,memberhub,,,"font-size: 74%;left: 36%;top: -36%;,font-size: 75%;left: -35%;top: -36%;,font-size:104%;top: 29%;","fal c_priamry,fas c_primary,fas c_primary,fas c_primary",https://www.acc.org/latest-in-cardiology/features/podcasts�
 Message,,envelope,,"send message, email, chat",,,,,,far,"https://memberhub.acc.org/profile/12609�; https://memberhub.acc.org/profile/12609 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors "
 My Account,,user-circle,,"me, my",,,,,,far,https://memberhub.acc.org/welcome/profile/12073�
 News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,far,https://www.cardiosmart.org/topics/angina�
