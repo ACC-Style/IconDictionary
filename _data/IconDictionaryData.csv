@@ -14,7 +14,7 @@ Cart,,shopping-cart,,"shopping cart, bag, shopping bag, basket, shopping basket"
 Certificate Program,,,,,Certificate program content,content,product,,,far,
 Certified Patient Cases,,,,,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,far,
 Chapter Meetings,,,,,,,,,,far,https://www.acc.org/Education-and-Meetings�
-Clinical Toolkit,,"box,tools",,toolkit,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,top: 22%;font-size: 75%;,"far,fas c_white",
+Clinical Toolkit,,"box,tools",,toolkit,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,top: 22%;font-size: 75%;,"fa,fas c_white",
 Clinical Trials,,,,,,content,,,,far,
 Collapse,,minus,,"minimize,hide","In combination with the ""Expand"" icon, these icons toggle to reflect the opposite state of complex content - such as navigation and sections of content.",action,hidden content,,,far,
 Credit,,file-certificate,,certificate,"When denoting the types of education credits or certificates that are attached to a content item. ",ui,�,,,far,
