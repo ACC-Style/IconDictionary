@@ -1,3 +1,4 @@
+{% assign styles = icons.css | split:"," %}
 <div
 	id="{{icons.name}}"
 	class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5 IconListItem"
@@ -7,13 +8,13 @@
 		<i class="far fa-ban c_alert font_10 fa-fw"></i>
 		{% elsif classes.size == 1 %}
 		<i
-			class=" {%  if icons.sub == 'social' %} fab {% else %} far {% endif %} c_primary  font_10 fa-fw  fa-{{ icons.class }} "
+			class=" {{styles[0] }} font_10 fa-fw  fa-{{ icons.class }}  c_primary"
 		></i>
 		{% else %}
 		<span class="fa-stack font_5">
-			<i class="fas fa-{{ classes[0] }} fa-stack-2x c_primary"></i>
-			<i
-				class="fas fa-{{ classes[1] }} fa-stack-1x   fa-inverse  {{ icons.css  }}"
+			<i class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
+			<i style="{{icons.inlineCSS}} "
+				class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"
 			></i>
 		</span>
 		{% endif %}
@@ -108,20 +109,20 @@
 			>
 		</div>
     {% endif %}
-    <pre
-    class="br_1 br_solid br_black-3 bg_black-1 p_3 m-b_5 block relative">
-    <span class="inline-block c_black-4 uppercase font_bold absolute t_3 l_3"
-        >Code Example</span
-      >
-    <code class="force-select">{% if classes.size == 0 %}
-      <strong class="c_alert">Missing Icon Information</strong>
-      {% elsif  classes.size == 1 %}
-  &lt;i class=&quot;{% if icons.sub == "social" %}fab{% else %}far{% endif %} fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;
-  {% else %}
-  &lt;span class="fa-stack c_primary  font_5"&gt;
-  &lt;i class="far fa-{{ classes[0] }} fa-stack-2x"&gt;&lt;/i&gt;
-  &lt;i class="far fa-{{ classes[1] }} fa-stack-1x fa-inverse {{ icons.css  }}"&gt;&lt;/i&gt;
-  &lt;/span&gt;
-  {% endif %}</code></pre>
+    <div
+    class="br_1 br_solid br_black-3 bg_black-1 p_3 m-b_5 block relative"><span class="c_black-4 uppercase font_bold absolute t_3 l_4">Code Example</span>
+{% if classes.size == 0 %}
+<strong class="c_alert block p-r_4 p-t_5 p-b_4 m-t_3">Missing Icon Information</strong>
+{% elsif  classes.size == 1 %}
+<pre class="p-r_4 p-t_5 p-b_4 m-t_3"><code class="force-select">&lt;i class=&quot;{{ styles[0] }} fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;</code></pre>
+{% else %}
+<pre class="p-r_4 p-t_5 p-b_4 m-t_3"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
+	&lt;i class=&quot;fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x&quot;&gt;&lt;/i&gt;
+	&lt;i 
+		style=&quot;{{ icons.inlineCSS }}&quot; 
+		class=&quot;fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
+&lt;/span&gt;</code></pre>
+{% endif %}
+</div>
 	</div>
 </div>
