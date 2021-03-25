@@ -1,5 +1,6 @@
 {% assign styles = icons.css | split:"," %}
 {% assign inlineCSS = icons.inlineCSS | split:"," %}
+{% assign synonyms = icons.synonyms | split:"," %}
 <div
 	id="{{icons.name}}"
 	class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5 IconListItem"
@@ -14,11 +15,11 @@
 		{% elsif classes.size == 2 %}
 			<span class="fa-stack font_5">
 				<i class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
-				<i style="{{icons.inlineCSS[0]}} "
+				<i style="{{icons.inlineCSS}} "
 					class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"
 				></i>
 			</span>
-			{% elseif classes.size == 3 %}
+		{% elsif classes.size == 3 %}
 			<span class="fa-stack font_5">
 			<i class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
 			<i style="{{inlineCSS[0]}} "
@@ -66,7 +67,7 @@
 			<a
 				class="font_bold p-l_3 underline h:undecorated"
 				href="https://fontawesome.com/icons/{{ icons.class }}"
-				>fa-{{ icons.class }}</a
+				>fa-{{ icons.class | strip  }}</a
 			>
 		</div>
 		{% else %}
@@ -78,22 +79,29 @@
 			<a
 				class="font_bold p-l_3"
 				href="https://fontawesome.com/icons/{{ class }}"
-				>fa-{{ class }}</a
+				>fa-{{ class | strip }}</a
 			>
 			{% endfor %}
 		</div>
     {% endif %} 
-    {% if icons.synonyms.size > 0 %}
+    {% if icons.synonyms.size + classes.size != 0 %}
 		<div class="m-t_2 m-b_3">
 			<span class="inline-block c_black-4 uppercase font_bold"
 				>synonyms</span
 			>
+			{% for synonym in synonyms %}
 			<span class="IconSynonyms">
-				<strong class="c_primary">{{icons.synonyms}}</strong>
+				<strong class="c_primary">{{synonym | strip}}</strong>,
 			</span>
+			{% endfor %}
+			{% for class in classes %}
+			<span class="IconSynonyms display_none">
+				<strong class="c_primary">{{class | strip}}</strong>,
+			</span>
+			{% endfor %}
+			
 		</div>
     {% endif %}
-
     {% if icons.usage.size > 1  %}
 		<p class="font_1 m-t_2 m-b_3">
       <span class="block c_black-4 uppercase font_bold"
