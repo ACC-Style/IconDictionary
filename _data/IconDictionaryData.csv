@@ -18,8 +18,8 @@ Clinical Toolkit,,"box,tools",,toolkit,"Simple icon used in lists, search, ui or
 Clinical Trials,,,,,,content,,,,far,
 Collapse,,minus,,"minimize,hide","In combination with the ""Expand"" icon, these icons toggle to reflect the opposite state of complex content - such as navigation and sections of content.",action,hidden content,,,far,
 Credit,,file-certificate,,certificate,"When denoting the types of education credits or certificates that are attached to a content item. ",ui,�,,,far,
-Decision Aid,,sitemap,,,Decision Aid: Multi-page booklet or video to support shared decision-making.,content,�,,,far,"https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid ; https://www.cardiosmart.org/assets/decision-aid/choosing-between-tavr-and-surgery "
-Discussion Guide,,user-md-chat,,,Multi-page booklet for clinician to use with patient to learn about a topic.,content,�,,,far,
+Decision Aid,,sitemap,,�,Decision Aid: Multi-page booklet or video to support shared decision-making.,content,�,,,far,"https://www.cardiosmart.org/search?sort=relevancy&q=decision%20aid ; https://www.cardiosmart.org/assets/decision-aid/choosing-between-tavr-and-surgery "
+Discussion Guide,,user-md-chat,,�,Multi-page booklet for clinician to use with patient to learn about a topic.,content,�,,,far,
 Down Voted,,thumbs-down,,"unliked, disapproved, disliked",,ui,�,,,far,
 Download,,arrow-to-bottom,,"save local copy, save to disk, save to drive","This icon must always be connected to the name of the file type it is downloading.  This can either be the title of the file or the type of file. For example: (Download) The complications of the heart, or (Download) Presentation",action,button & link,,,far," ; https://www.cardiosmart.org/assets/fact-sheet/hypertrophic-cardiomyopathy-fact-sheet "
 Drill and Practice,,,,,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,product,,,far,https://www.acc.org/Education-and-Meetings�
@@ -58,7 +58,7 @@ Logout,,sign-out,,"sign-out, log out, sign out",used in main nav that denotes ho
 Meeting on Demand,,,,,,content,product,,,far,
 Meetings,,"calendar-day
 ",,"Conference, meetup","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,,far,https://www.acc.org/My-ACC/My-Library�
-Member Hub,,,,,Icon representation of MH,memberhub,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts�
+Member Hub,,,,,Icon representation of Member Hub,memberhub,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts�
 Message,,envelope,,"send message, email, chat",,,,,,far,"https://memberhub.acc.org/profile/12609�; https://memberhub.acc.org/profile/12609 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors "
 My Account,,user-circle,,"me, my",,,,,,far,https://memberhub.acc.org/welcome/profile/12073�
 News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,far,https://www.cardiosmart.org/topics/angina�
