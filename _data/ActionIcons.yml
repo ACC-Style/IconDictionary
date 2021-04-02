@@ -1,9 +1,0 @@
-- name: Add, New, Expand
-  class: plus
-  synonyms: New, Add Another
-  usage: Most often used in buttons the plus icon is combined with the word "Add" plus the new item being added. For Exmple "Add User"
-
-- name: Remove, Cancel
-  class: times
-  synonyms: Delete, Close
-  usage: Most often used in buttons the times icon is combined with the word "remove or delete" plus the new item being added. For Exmple "Remove User"
