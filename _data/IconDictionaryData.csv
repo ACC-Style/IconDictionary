@@ -86,7 +86,7 @@ Risk Calculator,,calculator,, ,SPA (Single Page Application) that helps a user 
 RSS,,rss-square,,,Icon representation of a rss feed,,,,,far,https://www.acc.org/Latest-in-Cardiology#sort=%40commonsortdate%20descending 
 Search,,search,,find,Appears next to search bars. Signifies search functinality ,,,,,far,https://www.acc.org/#sort=%40commonsortdate%20descending 
 Section News,,scroll,,,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,,far,https://www.acc.org/My-ACC/My-Library 
-Self-Paced Learning,,,,modules,"Self-paced learning means you can learn in your own time and schedule.  This is not format-dependent, rather how you consume the activity.   If more this more than one self- paced activity, it sould be described as a course.  ",content,product,,,,
+Self-Paced Learning,,book-reader,,modules,"Self-paced learning means you can learn in your own time and schedule.  This is not format-dependent, rather how you consume the activity.   If more this more than one self- paced activity, it sould be described as a course.  ",content,product,,,far,
 Self-Assessment Programs,,,,,"SAPs are ACC's most comprehensive educational offering.  Each SAP provides a core curriculum on a specific area of cardiovascular medicine.  SAPs include education in a variety of formats, including text, video presentations and audio presentations.  They also include hundreds of multiple-choice questions that allow the user to apply what they learned and identify knowledge gaps.  ",content,product,,,far,https://www.acc.org/Education-and-Meetings 
 Service Glossary,,,,,This a link to the services glossary which is a glossary that provides descriptions and other names for the cardiac services and medications you can search for in the Find Your Heart a Home tool.,,,,,far,https://www.cardiosmart.org/find-your-heart-a-home 
 Share,,share-square,,"send to, ",Used in articles and landing pages with shareable information. The icon will pop-up a dialogue that will allow the user to share through email or social media.,,,,,far,https://www.cardiosmart.org/find-your-heart-a-home 
@@ -117,3 +117,4 @@ Quality Programs,,badge-check,,,ACC.21 Booth Page,,,,,far,
 Resources,,"clipboard,heart",,resources,,,,,font-size: 70%;top: 18%;,"fas,fas c_white",
 Interactive Tool,,"tablet,sliders-v-square",,,,,,,font-size: 130%;top: -9%;,"fas,fas c_white",
 Expert Panel Discussions,,users-class,,"panel, expert panel, panel discussion",,,,,,far,
+
