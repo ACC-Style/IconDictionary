@@ -20,9 +20,10 @@
         list = document.getElementById("mylist");
         li = list.getElementsByClassName("IconListItem");
         for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("a")[0];
+            a = li[i].getElementsByClassName("iconLabel")[0];
             synonymArray = [];
             txtValue = a.textContent || a.innerText;
+            synonymArray.push(txtValue);
             synonymList = li[i].getElementsByClassName('IconSynonyms');
 
             Array.prototype.forEach.call(synonymList, function (el) {
