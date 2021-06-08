@@ -1,3 +1,4 @@
+name,current icon,class,suggested class icon,synonyms,usage,category,sub,image,inlineCSS,css,url
 Accreditation Services,,award,,accreditation,Accreditation Content,content,product,,,far,
 Action Plan,,file-signature,, ,"Multi-page booklet that includes information about how to manage a health condition or initiate a medication, with input areas to record progress or goals.",content, ,,,far,"https://www.cardiosmart.org/search?sort=relevancy&q=action%20plan ; https://www.cardiosmart.org/topics/manage-your-care/your-responsibilities "
 "Add, New",,plus,,"new, another, expand","Used in buttons - the plus icon is combined with ""Add [new item being added]"". For example: ""Add User""",action,button & link,,,far,https://memberhub.acc.org/discuss/viewcategory/336 
@@ -69,7 +70,6 @@ Meetings,,"calendar-day
 Member Hub,,,,,Icon representation of MH,memberhub,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts
 Message,,envelope,,"send message, email, chat",,,,,,far,"https://memberhub.acc.org/profile/12609 ; https://memberhub.acc.org/profile/12609 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors "
 My Account,,user-circle,,"me, my",,,,,,far,https://memberhub.acc.org/welcome/profile/12073 
-name,current icon,class,suggested class icon,synonyms,usage,category,sub,image,inlineCSS,css,url
 News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,far,https://www.cardiosmart.org/topics/angina 
 Notification,,bell,,alert,,,,,,far,https://memberhub.acc.org/welcome/profile/12073 
 On Demand,,"rectangle-wide,play-circle",,"pre recored, on demand, direct access","Icon that denotes if a presentation is currently or will be ""on demand""",,,,font-size:80%,"far,fas c_primary",
@@ -117,6 +117,6 @@ View Password,,eye,,"show password, reveal password","In login, appears after pa
 Views,,eye,,Show Password,,,,,,far,https://memberhub.acc.org/discuss/viewcategory/336 
 Webinar,,desktop-alt,," event, virtual meeting, online session, stream, video",Webinar events that are upcoming or are on-demand,content, ,,,far,
 Worksheet,,tasks,,,"One page, mostly text, with input areas to record progress or work done.",content,,,,far,
-YouTube,,youtube-square,,,Icon representation of the social network,ui,users,,,fab,
+YouTube,,youtube-square,,,Icon representation of the social network,ui,users,,"top: 0%;font-size: 150%;left: 16%;,top: 0%;font-size: 160%;left: 16%;",fab,
 ,,,,,,,,,,,
 ,,,,,,,,,"    ",,
