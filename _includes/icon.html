@@ -1,7 +1,7 @@
 {% assign styles = icons.css | split:"," %}
 {% assign inlineCSS = icons.inlineCSS | split:"," %}
 {% assign synonyms = icons.synonyms | split:"," %}
-<div id="{{icons.name}}"
+<div id="{{icons.name | remove: ' '}}"
 	 class="home br_radius br_1 br_solid br_black-3 shadow_overlap-light m-b_5 m-t_4 IconListItem relative bg_white">
 	 <div class="absolute t_n1 r_3 flex_inline flex">
 		{% if icons.image != null %}
@@ -9,10 +9,10 @@
 			   class="fa-image far font_2 vertical-align_bottom p-r_2 shadow_n1 m-x_2"></i>
 			<span class="display_none inline-block:lg">illustration</span></a>
 		{% endif %} {% if classes.size >= 2 %}
-		<span
+		<a href="#exceptionStack" 
 			  class="p_3 m-x_2 br-bl_radius br-br_radius c_white bg_warning font_0 flex_inline flex justify_center"><i
 			   class="fa-layer-group far font_2 vertical-align_bottom p-r_2 shadow_n1 m-x_2"></i>
-			<span class="display_none inline-block:lg">stack</span></span>
+			<span class="display_none inline-block:lg">stack</span></a>
 		{% endif %}
 	 </div>
 	<div class="flex_column flex flex_row:md p_3">
@@ -54,7 +54,7 @@
 		<div
 			 class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
 			<h2 class="font_5 m-t_4:lg m-b_3:lg">
-				<a href="#{{icons.name}}"
+				<a href="#{{icons.name | remove: ' '}}"
 				   class="link">{{icons.name}}</a>
 				
 			</h2>
