@@ -1,173 +1,179 @@
 {% assign styles = icons.css | split:"," %}
 {% assign inlineCSS = icons.inlineCSS | split:"," %}
 {% assign synonyms = icons.synonyms | split:"," %}
-<div
-	id="{{icons.name}}"
-	class="br-b_1 br_acc br_dashed flex m-b_5 m-t_4 p-b_5 IconListItem"
->
-	<div class="flex_none w_15 p-x_4 p_3 text_right">
-		{% if classes.size==0 %}
-		<i class="far fa-ban c_alert font_10 fa-fw"></i>
-		{% elsif classes.size == 1 %}
-		<i
-			class=" {{styles[0] }} font_10 fa-fw  fa-{{ icons.class }}  c_primary"
-		></i>
-		{% elsif classes.size == 2 %}
-			<span class="fa-stack font_5">
-				<i class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
-				<i style="{{icons.inlineCSS}} "
-					class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"
-				></i>
-			</span>
-		{% elsif classes.size == 3 %}
-			<span class="fa-stack font_5">
-			<i class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
-			<i style="{{inlineCSS[0]}} "
-				class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"
-			></i>
-			<i style="{{inlineCSS[1]}} "
-				class="fa-{{ classes[2] }} {{ styles[2] }} fa-stack-1x"
-			></i>
-			</span>
-		{% else %}
-			<span class="fa-stack font_5">
-			<i class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
-			<i style="{{inlineCSS[0]}} "
-				class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"
-			></i>
-			<i style="{{inlineCSS[1]}} "
-				class="fa-{{ classes[2] }} {{ styles[2] }} fa-stack-1x"
-			></i>
-			<i style="{{inlineCSS[2]}} "
-				class="fa-{{ classes[3] }} {{ styles[3] }} fa-stack-1x"
-			></i>
-			</span>
-		{% endif %}
-	</div>
-	<div class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
-		<h2 class="font_5">
-			<a href="#{{icons.name}}" class="link">{{icons.name}}</a>
-			{% if icons.image != null %}
-			<span class="p_3 m-x_2 br_radius c_white bg_highlight font_0"
-				><i class="fa-image far font_2 vertical-align_bottom"></i>
-				illustration</span
-			>
-			{% endif %} {% if classes.size >= 2 %}
-			<span class="p_3 m-x_2 br_radius c_white bg_warning font_0"
-				><i class="fa-layer-group far font_2 vertical-align_bottom"></i>
-				stack</span
-			>
-			{% endif %}
-		</h2>
-		{% if classes.size==0 %} {% elsif classes.size == 1 %}
-		<div class="block font_0 m-t_2 m-b_3">
-			<span class="inline-block c_black-4 uppercase font_bold"
-				>Icon:</span
-			>
-			<a
-				class="font_bold p-l_3 underline h:undecorated"
-				href="https://fontawesome.com/icons/{{ icons.class }}"
-				>fa-{{ icons.class | strip  }}</a
-			>
-		</div>
-		{% else %}
-		<div class="block font_0 m-t_2 m-b_3">
-			<span class="inline-block c_black-4 uppercase font_bold"
-				>Stacked Icon:</span
-			>
-			{% for class in classes %}
-			<a
-				class="font_bold p-l_3"
-				href="https://fontawesome.com/icons/{{ class }}"
-				>fa-{{ class | strip }}</a
-			>
-			{% endfor %}
-		</div>
-    {% endif %} 
-    {% if icons.synonyms.size + classes.size != 0 %}
-		<div class="m-t_2 m-b_3">
-			<span class="inline-block c_black-4 uppercase font_bold"
-				>synonyms</span
-			>
-			{% for synonym in synonyms %}
-			<span class="IconSynonyms">
-				<strong class="c_primary">{{synonym | strip}}</strong>,
-			</span>
-			{% endfor %}
-			{% for class in classes %}
-			<span class="IconSynonyms display_none">
-				<strong class="c_primary">{{class | strip}}</strong>,
-			</span>
-			{% endfor %}
-			
-		</div>
-    {% endif %}
-    {% if icons.usage.size > 1  %}
-		<p class="font_1 m-t_2 m-b_3">
-      <span class="block c_black-4 uppercase font_bold"
-      >Usage</span
-    >
-      {{icons.usage}}</p>
-    {% endif %} 
-	
-    {% if icons.url != null %}
-    <div class="m-t_2 m-b_3">
-      <span class="inline-block c_black-4 uppercase font_bold"
-        >Example Location(s)</span
-      >
-      {%- assign locationArray = icons.url | split:";" -%} {%- for url in
-      locationArray -%}
-      <span class="IconLocations m-r_3">
-        <a class="c_primary link" href="{{- url | replace: ' ', ' ' -}}" target="_blank">location {{forloop.index}}</a>
-      </span>
-      {%- endfor -%}
-    </div>
-    {% endif %}
+<div id="{{icons.name}}"
+	 class="home br_radius br_1 br_solid br_black-3 shadow_overlap-light m-b_5 m-t_4 IconListItem relative bg_white">
+	 <div class="absolute t_n1 r_3 flex_inline flex">
 		{% if icons.image != null %}
-		<div>
-			<h3 class="c_primary">Illustration</h3>
-			{% assign imagepath = '/assets/graphic/' | append: icons.image %}
-			<a
-				href="{{ imagepath | relative_url   }}"
-				target="_blank"
-				class="c_priamry h:c_priamry-n2 h:underline capitalize link br_none undecorated"
-				><img
-					class="w_100 max-w_15 m-r_4"
-					src="{{ imagepath | append: site.github.build_revision | relative_url   }}"
-					alt="{{name}}"
-					srcset=""
-				/><br />
-				image download</a
-			>
+		<a href="#exceptionIllustration" class="p_3 m-x_2 br-bl_radius br-br_radius c_white bg_highlight font_0 flex_inline flex justify_center"><i
+			   class="fa-image far font_2 vertical-align_bottom p-r_2 shadow_n1 m-x_2"></i>
+			<span class="display_none inline-block:lg">illustration</span></a>
+		{% endif %} {% if classes.size >= 2 %}
+		<span
+			  class="p_3 m-x_2 br-bl_radius br-br_radius c_white bg_warning font_0 flex_inline flex justify_center"><i
+			   class="fa-layer-group far font_2 vertical-align_bottom p-r_2 shadow_n1 m-x_2"></i>
+			<span class="display_none inline-block:lg">stack</span></span>
+		{% endif %}
+	 </div>
+	<div class="flex_column flex flex_row:md p_3">
+		<div class="flex_none w_15:md p-x_4 p_3 text_right:md text_left">
+			{% if classes.size==0 %}
+			<i class="far fa-ban c_alert font_10 fa-fw"></i>
+			{% elsif classes.size == 1 %}
+			<i
+			   class=" {{styles[0] }} font_10 fa-fw  fa-{{ icons.class }}  c_primary"></i>
+			{% elsif classes.size == 2 %}
+			<span class="fa-stack font_5">
+				<i
+				   class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
+				<i style="{{icons.inlineCSS}} "
+				   class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"></i>
+			</span>
+			{% elsif classes.size == 3 %}
+			<span class="fa-stack font_5">
+				<i
+				   class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
+				<i style="{{inlineCSS[0]}} "
+				   class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"></i>
+				<i style="{{inlineCSS[1]}} "
+				   class="fa-{{ classes[2] }} {{ styles[2] }} fa-stack-1x"></i>
+			</span>
+			{% else %}
+			<span class="fa-stack font_5">
+				<i
+				   class="fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x c_primary"></i>
+				<i style="{{inlineCSS[0]}} "
+				   class="fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x"></i>
+				<i style="{{inlineCSS[1]}} "
+				   class="fa-{{ classes[2] }} {{ styles[2] }} fa-stack-1x"></i>
+				<i style="{{inlineCSS[2]}} "
+				   class="fa-{{ classes[3] }} {{ styles[3] }} fa-stack-1x"></i>
+			</span>
+			{% endif %}
 		</div>
-    {% endif %}
-    <div
-    class="br_1 br_solid br_black-3 bg_black-1 p_3 m-b_5 block relative"><span class="c_black-4 uppercase font_bold absolute t_3 l_4">Code Example</span>
-{% if classes.size == 0 %}
-<strong class="c_alert block p-l_4 p-t_5 p-b_4 m-t_3">Missing Icon Information</strong>
-{% elsif  classes.size == 1 %}
-<pre class="p-l_4 p-t_5 p-b_4 m-t_3"><code class="force-select">&lt;i class=&quot;{{ styles[0] }} fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;</code></pre>
-{% elsif  classes.size == 2  %}
-<pre class="p-l_4 p-t_5 p-b_4 m-t_3"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
+		<div
+			 class="br-l_2 br_black-1 br_solid p-l_4 flex_auto">
+			<h2 class="font_5 m-t_4:lg m-b_3:lg">
+				<a href="#{{icons.name}}"
+				   class="link">{{icons.name}}</a>
+				
+			</h2>
+			{% if classes.size==0 %} {% elsif classes.size
+			== 1 %}
+			<div class="block font_0 m-t_2 m-b_3">
+				<span
+					  class="inline-block c_black-4 uppercase font_bold">Icon:</span>
+				<a class="font_bold p-l_3 underline h:undecorated"
+				   href="https://fontawesome.com/icons/{{ icons.class }}">fa-{{
+					icons.class | strip }}</a>
+			</div>
+			{% else %}
+			<div class="block font_0 m-t_2 m-b_3">
+				<span
+					  class="inline-block c_black-4 uppercase font_bold">Stacked
+					Icon:</span>
+				{% for class in classes %}
+				<a class="font_bold p-l_3"
+				   href="https://fontawesome.com/icons/{{ class }}">fa-{{
+					class | strip }}</a>
+				{% endfor %}
+			</div>
+			{% endif %}
+			{% if icons.synonyms.size + classes.size != 0 %}
+			<div class="m-t_2 m-b_3">
+				<span
+					  class="inline-block c_black-4 uppercase font_bold">synonyms</span>
+				{% for synonym in synonyms %}
+				<span class="IconSynonyms">
+					<strong
+							class="c_primary">{{synonym | strip}}</strong>,
+				</span>
+				{% endfor %}
+				{% for class in classes %}
+				<span class="IconSynonyms display_none">
+					<strong
+							class="c_primary">{{class | strip}}</strong>,
+				</span>
+				{% endfor %}
+
+			</div>
+			{% endif %}
+			{% if icons.usage.size > 1 %}
+			<p class="font_1 m-t_2 m-b_3">
+				<span
+					  class="block c_black-4 uppercase font_bold">Usage</span>
+				{{icons.usage}}
+			</p>
+			{% endif %}
+
+			{% if icons.url != null %}
+			<div class="m-t_2 m-b_3">
+				<span
+					  class="inline-block c_black-4 uppercase font_bold">Example
+					Location(s)</span>
+				{%- assign locationArray = icons.url |
+				split:";" -%} {%- for url in
+				locationArray -%}
+				<span class="IconLocations m-r_3">
+					<a class="c_primary link"
+					   href="{{- url | replace: ' ', ' ' -}}"
+					   target="_blank">location
+						{{forloop.index}}</a>
+				</span>
+				{%- endfor -%}
+			</div>
+			{% endif %}
+			{% if icons.image != null %}
+			<div>
+				<h3 class="c_primary">Illustration</h3>
+				{% assign imagepath = '/assets/graphic/' |
+				append: icons.image %}
+				<a href="{{ imagepath | relative_url   }}"
+				   target="_blank"
+				   class="c_priamry h:c_priamry-n2 h:underline capitalize link br_none undecorated"><img
+						 class="w_100 max-w_15 m-r_4"
+						 src="{{ imagepath | append: site.github.build_revision | relative_url   }}"
+						 alt="{{name}}"
+						 srcset="" /><br />
+					image download</a>
+			</div>
+			{% endif %}
+
+		</div>
+	</div>
+	<div
+		 class="br-t_1 br_solid br_black-3 bg_black-4 p_3 m-t_4 block relative br-br_radius m-b_n1 br-bl_radius texture_light shadow_n1">
+		<span
+			  class="c_black-5 uppercase font_bold absolute t_3 l_4">Code
+			Example</span>
+		{% if classes.size == 0 %}
+		<strong
+				class="c_alert block p-l_4 p-t_4 m-t_4">Missing
+			Icon Information</strong>
+		{% elsif classes.size == 1 %}
+		<pre
+			 class="p-l_4 p-t_4 m-t_4"><code class="force-select">&lt;i class=&quot;{{ styles[0] }} fa-{{ icons.class }}&quot;&gt;&lt;&frasl;i&gt;</code></pre>
+		{% elsif classes.size == 2 %}
+		<pre class="p-l_4 p-t_4 m-t_4 wrap"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
 	&lt;i class=&quot;fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x&quot;&gt;&lt;/i&gt;
 	&lt;i style=&quot;{{ inlineCSS[0] }}&quot; class=&quot;fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
 &lt;/span&gt;</code></pre>
-{% elsif  classes.size == 3  %}
-<pre class="p-l_4 p-t_5 p-b_4 m-t_3"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
+		{% elsif classes.size == 3 %}
+		<pre class="p-l_4 p-t_4 m-t_4 wrap"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
 	&lt;i class=&quot;fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x&quot;&gt;&lt;/i&gt;
 	&lt;i style=&quot;{{ inlineCSS[0] }}&quot; class=&quot;fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
 	&lt;i style=&quot;{{ inlineCSS[1] }}&quot; class=&quot;fa-{{ classes[2] }} {{ styles[2] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
 &lt;/span&gt;</code></pre>
-{% elsif  classes.size == 4  %}
-<pre class="p-l_4 p-t_5 p-b_4 m-t_3"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
+		{% elsif classes.size == 4 %}
+		<pre class="p-l_4 p-t_4 m-t_4 wrap"><code class="force-select">&lt;span class=&quot;fa-stack&quot;&gt;
 	&lt;i class=&quot;fa-{{ classes[0] }} {{ styles[0] }} fa-stack-2x&quot;&gt;&lt;/i&gt;
 	&lt;i style=&quot;{{ inlineCSS[0] }}&quot; class=&quot;fa-{{ classes[1] }} {{ styles[1] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
 	&lt;i style=&quot;{{ inlineCSS[1] }}&quot; class=&quot;fa-{{ classes[2] }} {{ styles[2] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
 	&lt;i style=&quot;{{ inlineCSS[2] }}&quot; class=&quot;fa-{{ classes[3] }} {{ styles[3] }} fa-stack-1x&quot;&gt;&lt;/i&gt;
 &lt;/span&gt;</code></pre>
-{% else %}
-<strong class="c_alert block">Custom Icon DOM Not Set</strong>
-{% endif %}
-</div>
+		{% else %}
+		<strong class="c_alert block">Custom Icon DOM Not
+			Set</strong>
+		{% endif %}
 	</div>
 </div>
