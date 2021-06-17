@@ -4,7 +4,7 @@ Action Plan,,file-signature,, ,"Multi-page booklet that includes information ab
 "Add, New",,plus,,"new, another, expand","Used in buttons - the plus icon is combined with ""Add [new item being added]"". For example: ""Add User""",action,button & link,,,far,https://memberhub.acc.org/discuss/viewcategory/336 
 Annual Scientific Sessions,,,,,,,,,,far,https://www.acc.org/Education-and-Meetings 
 Announcement,,megaphone,,"section news, updates","Time sensitive messages that are not evergreen news. ","content ",article,,,far,
-Apps & Tools,,"mobile-alt,heart",,applications,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,foobar.jpg,font-size: 50%;top: -9%;,"fas, fas c_primary",https://www.acc.org/guidelines/hubs/atrial-fibrillation 
+Apps & Tools,,"mobile-alt,heart",,applications,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,font-size: 50%;top: -9%;,"fas, fas c_primary",https://www.acc.org/guidelines/hubs/atrial-fibrillation 
 Audio,,headphones,,"sound clip, listen","The audio icon is often placed, with the title of the file.  Audio files include but are not limited to podcast, mp3, or wav.","content,ui",asset,,,far,https://www.acc.org/My-ACC/My-Library 
 Award,,trophy,,,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,,far,https://www.acc.org/membership/current-members 
 Bookmark,,bookmark,,save to library, Appears when an item is saved to library,ui, ,,,far,https://memberhub.acc.org/profile/12609 
