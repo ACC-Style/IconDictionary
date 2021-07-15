@@ -67,7 +67,7 @@ My Account,,user-circle,,"me, my",,,,,,far,https://memberhub.acc.org/welcome/pro
 News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,far,https://www.cardiosmart.org/topics/angina 
 Notification,,bell,,alert,,,,,,far,https://memberhub.acc.org/welcome/profile/12073 
 On Demand,,"rectangle-wide,play-circle",,"pre recored, on demand, direct access","Icon that denotes if a presentation is currently or will be ""on demand""",,,,font-size:80%,"far,fas c_primary",
-Online Course,,,,,"An educational activity that includes multiple, two or more, lessons/assets. grant project. a list of assets on a particular subject.",content,product,,,far,
+Online Course,,"browser,graduation-cap",,"Digital Learning, Online Educaiton,Online Learning",Educational materials that can be done 100% online and on demand. This type of education may or may not reward credits.,content,,,top: 2%;font-size: 90%;,"far, fas c_primary",https://learn.acc.org/Page/LEARNHCM
 Patient Case Quizzes,,notes-medical,,,"A format used to test knowledge for both formative or summative assessments.  Quizzes are usually brief, ie one or two questions",content,product,,,far,
 Patient Resources,,"clipboard,user",,resources,Used for CardioSmart and other resources that focus on the patient,,,,top: 10%;font-size: 80%;,"fas,fas c_white",https://www.acc.org/guidelines/hubs/atrial-fibrillation 
 Patient/Survivor Story,,address-card,, ,An article or essay that is focus on or in the words of a patient,content, ,,,far,
