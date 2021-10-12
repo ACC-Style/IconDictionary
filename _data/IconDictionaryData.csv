@@ -63,6 +63,7 @@ Meetings,,"calendar-day
 ",,"Conference, meetup,live meeting","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,,far,https://www.acc.org/My-ACC/My-Library 
 Member Hub,,,,,Icon representation of MH,memberhub,,,,,https://www.acc.org/latest-in-cardiology/features/podcasts
 Message,,envelope,,"send message, email, chat",,,,,,far,"https://memberhub.acc.org/profile/12609 ; https://memberhub.acc.org/profile/12609 ; https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors "
+Micro Learning,,"search,book-reader",,"quick tips,quick reference",Short quick learning that can be done in less then 5 min.,content,,,top: -8%;font-size: 85%;left: -7%;,"far, fas c_primary",https://learn.acc.org/Page/LEARNHCM
 My Account,,user-circle,,"me, my",,,,,,far,https://memberhub.acc.org/welcome/profile/12073 
 News Article,,newspaper,,news,A news article that is an update or newsworthy,content,article,,,far,https://www.cardiosmart.org/topics/angina 
 Notification,,bell,,alert,,,,,,far,https://memberhub.acc.org/welcome/profile/12073 
@@ -77,7 +78,6 @@ Player FM,,,,,Icon representation of Player FM,,,,,far,https://www.acc.org/lates
 Podcast,,podcast,,,Icon representation of podcasts,ui,users,,,far,
 Print,,print,,,"When clicked, user's print dialogue opens",,,,,far,https://www.acc.org/latest-in-cardiology/articles/2021/01/19/14/27/new-insights-into-prescribing-of-sglt2-inhibitors-and-glp-1-receptor-agonists-in-2020 
 Quality Campaign,,,,campaign,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,,far,
-Quick Reference,,,,,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,,far,https://www.acc.org/guidelines/hubs/atrial-fibrillation 
 Registered,,check-circle,,purchased," Signifies that an item was purchased, or an event was registered for",ui, ,,,far,
 Registry,,"file,cog",,NCDR,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,top: 10%;font-size: 90%;,"far,fas c_primary",
 "Remove, Cancel, Clear",,times,,"delete, close, exit","Used in buttons, the times icon is combined in two ways: either with ""Cancel"" or with the word ""Remove or Delete"" + [the item being removed]. For Example ""Remove User"" ",action,button & link,,,far,"https://www.cardiosmart.org/find-your-heart-a-home ; https://www.acc.org/education-and-meetings/education-catalog#sort=%40originalz32xpostedz32xdate%20descending "
