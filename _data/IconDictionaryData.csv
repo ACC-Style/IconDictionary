@@ -12,7 +12,6 @@ Brute Force Lock,,"lock,ban",,,Icon to use that the users authentication has bee
 Career & Practice Resources,,"clipboard,tasks",,resources,"Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",,,,top: 15%;font-size: 85%;,"fas,far c_white",https://www.acc.org/membership/current-members 
 Cart,,shopping-cart,,"shopping cart, bag, shopping bag, basket, shopping basket",Signifies the user's products or potential purchases when signed into acc.org,,,,,far,https://www.acc.org/ 
 Certificate Program,,,,,"The primary purpose of an assessment-based certificate program is on facilitating the accomplishment of the intended learning outcomes by providing education and training that supports the accomplishment of intended learning outcomes. ",content,product,,,far,
-Certified Patient Cases,,,,,"A format used for applicaiton of knowledge in a real situation.  to show the application of a theory or concept to real situations.  ",content,product,,,far,
 Chapter Meetings,,,,,,,,,,far,https://www.acc.org/Education-and-Meetings 
 Clinical Toolkit,,"box,tools",,toolkit,"Simple icon used in lists, search, ui or small graphic  moments when the full graphic would deteriorate or become unreadable.",content,product,,top: 22%;font-size: 75%;,"far,fas c_white",
 Clinical Trials,,microscope,,,,content,,,,far,
@@ -118,5 +117,5 @@ Quality Programs,,badge-check,,,ACC.21 Booth Page,,,,,far,
 Resources,,"clipboard,heart",,resources,,,,,font-size: 70%;top: 18%;,"fas,fas c_white",
 Interactive Tool,,"tablet,sliders-v-square",,,,,,,font-size: 130%;top: -9%;,"fas,fas c_white",
 Expert Panel Discussions,,users-class,,"panel, expert panel, panel discussion",,,,,,far,
-,,,,,,,,,,,
+Certified Patient Cases,,"badge,notes-medical",,patient case,,content,product,,font-size: 110%;top: -3%;,"fas,fas c_white",
 ,,,,,,,,,"    ",,

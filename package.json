@@ -1,0 +1,22 @@
+{
+  "name": "icondictionary",
+  "version": "1.0.0",
+  "description": "List of icons that are used within the college.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACC-Style/IconDictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACC-Style/IconDictionary/issues"
+  },
+  "homepage": "https://github.com/ACC-Style/IconDictionary#readme"
+}
