@@ -41,15 +41,14 @@ Filter,,filter,,refine,This icon are usually combined with the word filter,actio
 Font Size,,text-size,,text size,"This is a set of 3 icons in one - the user can click on each A, and the font-size will change accordingly",,,,,far,https://www.acc.org/latest-in-cardiology/articles/2021/01/12/18/39/jacc-cardiooncology-papers-discuss-evolving-landscape-of-immune-checkpoint-inhibitors 
 Generic Article,,file-medical-alt,, ,Any news or editorial article that doesn't fit into the specialized sub article types,content,article,,,far,https://www.acc.org/My-ACC/My-Library 
 Google Play,,google-play,,,Icon representation of the social network,,,,,fab,https://www.acc.org/latest-in-cardiology/features/podcasts 
-Guideline,,book-medical,, ,"Capital ""G"" guidelines",content, ,,,far,
+Guideline,,book-medical,,"recomendation, rule, Guideline Education, ","Capital ""G"" guidelines",content, ,,,far,
 Guideline Hub,,hubspot,,Hub,"Guideline hub icon, appears on the guideline search listing page - links to hub for the particular guideline it appears next to",,,,,fab,https://www.acc.org/latest-in-cardiology/features/podcasts 
-"Guideline, Guideline Education",,book-open,,"recomendation, rule","Simple icon used in lists, search, ui or small graphic moments when the full graphic would deteriorate or become unreadable.",content,,,,far,https://www.acc.org/Education-and-Meetings 
 Home,,home,,,Links to homepage on ACC.org - appears in top line navigation,,,,,fas,https://www.acc.org/ 
 image,,image,,"graphic, picture, photo",Signifies that the object is an image file,"content,ui",asset,,,far,https://memberhub.acc.org/profile/12609  ; https://www.acc.org/My-ACC/My-Library 
 Infographic,,file-chart-pie,,"poster, printable flier","One page, mostly images, that explains a health topic. Can be printed as a handout or posted on the wall.",content, ,,,far,https://www.cardiosmart.org/topics/healthy-living/eat-better 
 Instagram,,instagram-square,, ,Icon representation of the social network,ui,social,,,fab,
 iTunes,,itunes,,,Icon representation of the social network,,,,,fab,https://www.acc.org/latest-in-cardiology/features/podcasts 
-JACC Journals CME/MOC/ECME,,,,,"JACC Icon is used in the guidelines search listing, signifiying a link to the JACC guideline article",content,product,,,far,https://www.acc.org/membership/current-members 
+JACC Journals CME/MOC/ECME,,book-open,,,"JACC Icon is used in the guidelines search listing, signifiying a link to the JACC guideline article",content,product,,,far,https://www.acc.org/membership/current-members 
 Less,,chevron-up,,"collapse, read less, hide","In combination with the ""More"" icon this icon toggles simple text content by showing less of the content",action,hidden content,,,far,
 LinkedIn,,linkedin,, ,Icon representation of the social network,ui,social,,,fab,
 List bullets,,,,,"We use browser rendered bullets and do not inlcude an alternate version for consistency. ",,,,,far,https://www.acc.org/education-and-meetings/features/2020/05/iv-board-prep-virtual-experience   https://www.acc.org/My-ACC/My-Communication-Preferences 
